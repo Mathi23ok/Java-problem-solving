@@ -1,3 +1,7 @@
+
+///the input should be in the range of 1 to 100,if the range exceeded then print invalid input then if the number is divisible by 2 then print yes if not print no///
+//then the value should be divided into half ,and need to give the outout in even numbers eg output should be as 4 4, 6 8
+
 import java.util.Scanner;
 
 public class Main {
