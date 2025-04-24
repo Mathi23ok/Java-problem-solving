@@ -4,6 +4,7 @@ public class Main {
     public static void main(String[] args) {
       Scanner sc = new Scanner(System.in);
       int a = sc.nextInt();
+      boolean s = false;
            int b = sc.nextInt();
            int c =0;
            int d =0;
@@ -15,9 +16,16 @@ public class Main {
              }
              if(c==4){
                  d+=1;
+                 s = true;
                }
              c = 0;
-           }
-           System.out.print(d);
+             if(s){
+               System.out.println(i);
+  }
+             s = false;
+             
+             }
+           
+           System.out.printf("Total AES numbers = %d",d);
   }
 }
