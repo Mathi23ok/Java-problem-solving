@@ -1,0 +1,33 @@
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    int s = sc.nextInt();
+    int h = 0;
+    int c = 0;
+    int arr[] = new int[s];
+    for(int i =0;i<s;i++){
+      arr[i] = sc.nextInt();
+    }
+    for(int i =0;i<s;i++){
+
+      if(arr[i]>=100){
+       c++;
+      
+      }
+      if(arr[i]>=50 && arr[i]<100){
+        h++;
+      }
+     
+    }
+    System.out.println("Centuries : "+c);
+     System.out.println("Half Centuries : "+h);
+  }
+}
+//input
+//11
+//0 10 25 105 74 49 67 150 1 0 0
+//output
+//Centuries :2
+//Half Centuries :2
